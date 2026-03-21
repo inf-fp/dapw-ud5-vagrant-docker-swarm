@@ -18,17 +18,22 @@ Escenario para **Docker Swarm** de **5 nodos** (3 *managers* + 2 *workers*).
 	```
 - Nos podemos conectar a los equipos utilizando SSH (contraseña: `abc123.`):
 	```bash
+	# manager1
 	ssh vagrant@192.168.57.10
 	```
 	```bash
+	# manager2
 	ssh vagrant@192.168.57.11
 	```
 	```bash
+	# manager3
 	ssh vagrant@192.168.57.12
 	```
 	```bash
+	# worker1
 	ssh vagrant@192.168.57.20
 	```
 	```bash
+	# worker2
 	ssh vagrant@192.168.57.21
 	```
