@@ -16,6 +16,11 @@ Escenario para **Docker Swarm** de **5 nodos** (3 *managers* + 2 *workers*).
 	```bash
 	vagrant up
 	```
+	La salida del comando anterior debe ser [similar a la de este fichero](./assets/vagrant-up-output.txt).
+	
+	Ahora podemos ver en VirtualBox cinco máquinas nuevas:
+
+	![](./assets/virtualbox.webp)
 - Nos podemos conectar a los equipos utilizando SSH (contraseña: `abc123.`):
 	```bash
 	# manager1
